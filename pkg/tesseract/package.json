@@ -1,0 +1,20 @@
+{
+  "name": "@daladaia/tesseract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "python3 ./main.py",
+    "test": "nodemon test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

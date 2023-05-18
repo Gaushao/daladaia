@@ -1,0 +1,12 @@
+{
+  "name": "daladaia",
+  "private": true,
+  "author": "Jayme Santos",
+  "version": "0.0.1",
+  "license": "ISC",
+  "scripts": {},
+  "workspaces": [
+    "app/**/*",
+    "pkg/**/*"
+  ]
+}

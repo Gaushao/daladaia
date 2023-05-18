@@ -1,0 +1,28 @@
+{
+  "name": "@daladaia/whatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "rok": "ngrok http 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "whatsapp": "^0.0.5-Alpha"
+  },
+  "devDependencies": {
+    "@daladaia/dalama": "*",
+    "@daladaia/schema": "*",
+    "@types/dotenv": "^8.2.0",
+    "@types/multer": "^1.4.7",
+    "dotenv": "^16.0.3"
+  }
+}
